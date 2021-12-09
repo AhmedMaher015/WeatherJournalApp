@@ -1,0 +1,141 @@
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-rows: minmax(150px, auto);
+  /* grid-template-columns:  */
+  height: 100vh;
+  background: #eee;
+  text-align: center;
+  color: #f0d43a;
+  justify-content: center;
+  grid-gap: 2em;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.headline {
+  margin: 30px auto;
+  color: #222;
+}
+
+#zip {
+  margin: 10px auto;
+}
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+}
+
+#date {
+  color: #0c0e86;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#temp {
+  color: #22bb1d;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#content {
+  color: #eee;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+}
+
+button:hover {
+  cursor: pointer;
+}
+h1 {
+  font-size: 36px;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+textarea {
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/* 
+
+.headline {
+}
+.title {
+}
+
+#entryHolder {
+}
+
+*/
